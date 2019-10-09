@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>光斑移动</title>
+    <style>
+        body{
+            background-color: #000;
+        }
+        .con{
+            margin-top: 200px;
+            font-size: 100px;
+            text-align: center;
+            color: rgba(255,255,255,.5);
+            font-weight: bold;
+
+            background: linear-gradient(135deg,#000 10%,#fff 12%,#000 14%);
+
+            -webkit-background-clip: text;
+
+            animation: move 1s linear infinite;
+        }
+
+
+        @keyframes move {
+            0%{
+                background-position: 300px 0;
+            }
+            100%{
+                background-position: 1100px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="con">Shmi1y 项志鹏</div>
+</body>
+
